@@ -11,7 +11,7 @@ def home():
 def ping():
     while True:
         try:
-            url = 'https://your-telegram-bot-url.onrender.com'  # Replace with your actual bot URL
+            url = 'https://telegram-bot-xyqv.onrender.com'  # Replace with your actual bot URL
             r = requests.get(url)
             print(f"Pinged {url} | Status: {r.status_code}")
         except Exception as e:
